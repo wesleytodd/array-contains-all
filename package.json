@@ -1,6 +1,6 @@
 {
   "name": "array-contains-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if one array contains all the entries of another",
   "main": "index.js",
   "directories": {
