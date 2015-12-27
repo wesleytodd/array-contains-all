@@ -1,0 +1,30 @@
+{
+  "name": "array-contains-all",
+  "version": "1.0.0",
+  "description": "Check if one array contains all the entries of another",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+	"prepublish": "npm run test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleytodd/array-contains-all.git"
+  },
+  "keywords": [
+    "array",
+    "contains"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleytodd/array-contains-all/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/array-contains-all#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
