@@ -4,11 +4,11 @@
   "description": "Check if one array contains all the entries of another",
   "main": "index.js",
   "directories": {
-    "test": "test",
-	"prepublish": "npm run test"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+	"prepublish": "npm test"
   },
   "repository": {
     "type": "git",
