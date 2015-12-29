@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
-	"prepublish": "npm test"
+    "test": "happiness && mocha",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/wesleytodd/array-contains-all#readme",
   "devDependencies": {
+    "happiness": "git+ssh://git@github.com/JedWatson/happiness.git#standard-fork",
     "mocha": "^2.3.4"
   }
 }
